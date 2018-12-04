@@ -20,7 +20,7 @@ if (message.content.startsWith(adminprefix + 'play')) {
       message.channel.sendMessage(`**:white_check_mark: | ${argresult}**`).then(message => {message.delete(6000)})
   } else 
 if (message.content.startsWith(adminprefix + 'st')) {
-  client.user.setGame(argresult, "https://www.twitch.tv/Allwai")
+  client.user.setGame(argresult, "https://www.twitch.tv/idk")
     message.channel.sendMessage(`**:white_check_mark: | ${argresult}**`).then(message => {message.delete(6000)})
 }
 });
